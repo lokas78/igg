@@ -17,6 +17,8 @@
 2. run 
     python3 igg.py
 <img src="https://raw.githubusercontent.com/indestinee/igg/master/images/runtime.png"/>
+3. then you will receive gift every time they post :)
+<img src="https://raw.githubusercontent.com/indestinee/igg/master/images/result.png"/>
 
 
 ## what else you need do

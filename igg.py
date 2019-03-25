@@ -179,11 +179,13 @@ class Gift():
     def __call__(self,):
         latest = 0
         delay = 120
+        first = True
         while True:
             s = (time.time() + 8 * 3600) % 86400
             m, h = int(s % 3600 / 60), int(s / 3600)
 
-            while h == 17 and m >= 28 and m <= 45:
+            while h == 17 and m >= 28 and m <= 45 or first:
+                first = False
                 with procedure('catch wechat url from sougou', same_line=False):
                     wechat_url = catcher.sougou()
                 with procedure('scan recent publishes', same_line=False):

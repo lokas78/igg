@@ -16,9 +16,12 @@
     echo '{"igg_id": "123123123"}' > config.json
 2. run 
     python3 igg.py
+<img src="https://raw.githubusercontent.com/indestinee/igg/master/images/runtime.png"/>
+
 
 ## what else you need do
 after some requests (usually 50 times), there will be captcha in the cmdline, input the captcha you see, then can continue :)   
 usually you should expand the window to the max to see the captcha,   
 or you need to fix captcha's size in igg.py line #92: change 170, 170 to any size smaller.
+<img src="https://raw.githubusercontent.com/indestinee/igg/master/images/captcha.png"/>
 
